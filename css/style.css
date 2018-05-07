@@ -23,7 +23,6 @@ ul {
   padding: 0;
   width: 1170px;
   background-image: url("../img/background.jpg");
-  /* box-shadow: inset 15px 0px 8px -3px rgba(0, 0, 0, 0.5); */
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0 auto;
@@ -144,6 +143,7 @@ ul {
   letter-spacing: 3px;
   font-weight: lighter;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .services-section .main-description {
@@ -187,7 +187,7 @@ ul {
 }
 
 .service-item .service-description {
-  width: 255px;
+  width: 270px;
   color: #828181;
   padding: 0;
   margin: 0;
@@ -215,4 +215,184 @@ ul {
   font-weight: 500;
   margin: 0 auto;
   margin-bottom: 73px;
+}
+
+.portfolio-section {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #65cb64;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-section h2 {
+  color: #207b20;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-section .main-description {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  color: #2b9b2b;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.portfolio-section .toggle {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 310px;
+  margin: 0 auto;
+  border: 2px solid #3ca63c;
+  background-color: #ffffff;
+  justify-content: space-around;
+  border-radius: 30px;
+  margin-bottom: 60px;
+}
+
+.portfolio-section .toggle-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-right: 2px solid #3ca63c;
+  padding-right: 18px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.portfolio-section .toggle-item:last-of-type {
+  border-right: none;
+}
+
+.portfolio-section .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.portfolio-section .gallery-item {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-section .gallery-item:nth-child(5n) {
+  margin-right: 0px;
+}
+
+.portfolio-section .gallery-item:last-of-type {
+  margin-bottom: 56px;
+}
+
+.portfolio-section .more-work {
+  color: #ffffff;
+  width: 190px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  background-color: #44b044;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Titillium Web", "Arial", sans-serif;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.testimonials-section {
+  width: 760px;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonials-section h2 {
+  color: #828181;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.testimonials-section .main-description {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  color: #b7b3b3;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.testimonials-slider {
+  display: flex;
+  width: 760px;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonials-slider p {
+  color: #444444;
+  font-family: "Titillium Web", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.testimonials-slider .feedback {
+
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.testimonials-slider .client {
+  text-align: left;
+  padding-left: 60px;
+
+}
+
+.testimonials-slider .client-position {
+  color: #cccccc;
+  text-align: left;
+  padding-bottom: 10px;
+  width: 140px;
+  padding-left: 60px;
+}
+
+.client-info {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.client-info::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+
 }
