@@ -363,7 +363,7 @@ ul {
   margin-bottom: 15px;
 }
 
-.testimonials-slider .client {
+.testimonials-slider .feedback-client {
   text-align: left;
   padding-left: 60px;
 
@@ -394,5 +394,4 @@ ul {
   height: 50px;
   top: 0px;
   left: 0px;
-
 }
