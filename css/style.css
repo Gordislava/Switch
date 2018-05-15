@@ -432,7 +432,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 .testimonials-section {
-  width: 760px;
+  width: 1170px;
   margin: 0 auto;
   padding: 0;
   flex-wrap: wrap;
